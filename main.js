@@ -1,5 +1,5 @@
 function calculate(){
-    var sol=parseInt(Math.floor(Math.random()*11)+1);
+    var sol=parseInt(Math.floor(Math.random()*10)+1);
    var i=0;
    var j=3;
    while(i<j){

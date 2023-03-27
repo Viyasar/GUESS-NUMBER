@@ -2,8 +2,13 @@ function calculate(){
     var sol=parseInt(Math.floor(Math.random()*10)+1);
    var i=0;
    var j=3;
+
    while(i<j){
     var current=prompt("𝔼ℕ𝕋𝔼ℝ 𝕐𝕆𝕌ℝ 𝔾𝕌𝔼𝕊𝕊 ℕ𝕌𝕄𝔹𝔼ℝ ");
+    if(current==null){
+      alert("GAME EXIT");
+        break;
+    }else{
     if(sol==current){
         window.alert("𝕔𝕠𝕟𝕘𝕣𝕒𝕕𝕦𝕝𝕒𝕥𝕚𝕠𝕟 ,𝕪𝕠𝕦𝕣 𝕘𝕦𝕖𝕤𝕤 𝕚𝕤 𝕔𝕠𝕣𝕣𝕖𝕔𝕥...~");
         break;}
@@ -22,4 +27,4 @@ else{
     alert("𝔸ℕ𝕆𝕋ℍ𝔼ℝ 𝕆ℕ𝔼 ℂℍ𝔸ℕℂ𝔼 𝔽𝕆ℝ 𝕐𝕆𝕌...~");
 }}
 
-}
+}}
